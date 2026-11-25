@@ -12,7 +12,7 @@ import torch
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
-from data_utils.读取npy_data import PartNormalDataset
+from data_utils.npy_data import PartNormalDataset
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = BASE_DIR
